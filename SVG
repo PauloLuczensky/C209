@@ -1,0 +1,46 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+    //definindo o círculo e suas coordenadas
+    //255 eh o valor maximo de 8 bits, 0 verde, 0 azul
+    //rgb(red,green,blue), rgb(255,255,0)
+    //canal a(afla) eh o canal de transparencia, rgba(255,255,255,0.5)
+    //stroke eh a borda, stroke="red" stroke-width="3"
+    <circle 
+        cx="120" 
+        cy="120" 
+        r="50" 
+        fill="rgba(0,255,255,0.4)"  
+        stroke="blue" stroke-width="3" 
+    />
+
+    <rect 
+        x="120" 
+        y="120" 
+        width="130" 
+        height="120" 
+        fill="none" 
+        stroke="yellow"
+        stroke-width="5"
+        transform="rotate(45,120,120)"
+    />
+
+    <text x = "120" y = "200" font-size="20" fill="blue">
+        Aula de CG
+    </text>   
+
+    <line x1="100" y1="200" x2="200" y2="200" stroke-width="4" stroke="brown"/>  
+  //A tag g eh o pai, ele pode sobrepor o filho
+  <g 
+    transform="rotate(40,100,100)">
+    //jeito livre de desenhar
+    <path
+    //Maiusculo=coordenada absoluta
+    //Minusculo=relativo, em relação ao valor anterior
+      d="M200,200 L200,300 L300,200 Z "
+      stroke="#380303"
+      fill= "red"
+    />
+
+    <polygon points="200,200 300,300 400,20"/>   
+
+  </g>
+</svg>
