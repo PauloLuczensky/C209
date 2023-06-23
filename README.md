@@ -1,1 +1,1 @@
-# Repositório do laboratrio de Computação Grafica e Multimídia
+# Repositório do laboratório de Computação Grafica e Multimídia
